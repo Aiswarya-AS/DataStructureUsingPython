@@ -74,6 +74,29 @@ def BFS(node, graph):
                 queue.append(i)
 
 
+# To find cycle in graph
+def find_cycle(graph):
+    visited = set()
+    for v in graph:
+        if v not in visited:
+            if dfs(graph, v, visited, -1):
+                return True
+    return False
+
+
+def dfs(graph, v, visited, parent):
+    visited.add(v)
+
+    for u in graph[v]:
+        if u not in visited:
+            if dfs(graph, u, visited, v):
+                return True
+        elif parent != u:
+            return True
+
+    return False
+
+
 graph = {}
 
 
@@ -95,3 +118,5 @@ print(graph)
 DFS("A", graph)
 print()
 BFS("A", graph)
+print()
+print(find_cycle(graph))

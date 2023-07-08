@@ -1,4 +1,4 @@
-def binary_saerch(arr, n, x):
+def binary_search(arr, n, x):
     low = 0
     high = n - 1
     mid = 0
@@ -17,7 +17,7 @@ def binary_saerch(arr, n, x):
 arr = [2, 3, 4, 10, 40]
 x = 10
 n = len(arr)
-result = binary_saerch(arr, n, x)
+result = binary_search(arr, n, x)
 if result != -1:
     print("Element found at the index", result)
 else:

@@ -19,6 +19,26 @@ class Node:
         for i in self.children:
             i.display(level + 1)
 
+    # display node if they have more than 2 children
+    def display_child(self, level=0):
+        if len(self.children) > 2:
+            print(" " * level + self.value)
+        for child in self.children:
+            child.display_child(level + 1)
+
+    def dfs(self):
+        print(self.value)
+        for child in self.children:
+            child.dfs()
+
+    def bfs(self):
+        queue = [self]
+
+        while queue:
+            node = queue.pop(0)
+            print(node.value)
+            queue.extend(node.children)
+
 
 root = Node("A")
 b = Node("B")

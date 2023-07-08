@@ -97,3 +97,49 @@ def secondLargestUntill(root, c):
     if c[0] == 2:
         print("Seconf largest", root.data)
     secondLargestUntill(root.left, c)
+
+
+# check is bst or not
+previous = None
+
+
+def isBST(root):
+    global previous
+    previous = None
+    return isBST_inorder(root)
+
+
+def isBST_inorder(root):
+    global previous
+    if root is None:
+        return True
+    if isBST_inorder(root.left) is False:
+        return False
+    if previous is not None and previous.data > root.data:
+        return False
+    previous = root
+    return isBST_inorder(root.right)
+
+
+root = None
+root = insert(root, 50)
+root = insert(root, 30)
+root = insert(root, 20)
+root = insert(root, 40)
+root = insert(root, 70)
+root = insert(root, 60)
+root = insert(root, 80)
+inorder(root)
+print("level order")
+# level_order(root)
+# second_largest(root)
+search(root, 35)
+deletion(root, 70)
+print("after deletion")
+# level_order(root)
+
+# check for BST
+# if(isBST(root)):
+#     print("Binary Tree is BST")
+# else:
+#     print("Binary Tree is not Bst")

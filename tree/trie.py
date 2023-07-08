@@ -32,6 +32,16 @@ class Trie:
             current = current.children[c]
         return True
 
+    def _find_words(self, node):
+        result = []
+        if node.endOfWord:
+            result.append("")
+        for char, child in node.children.items():
+            suffixes = self._find_words(child)
+            for suffix in suffixes:
+                result.append(char + suffix)
+        return result
+
 
 t = Trie()
 t.insert("apple")
