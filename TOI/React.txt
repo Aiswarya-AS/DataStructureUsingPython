@@ -1,0 +1,53 @@
+components
+context vs redux
+core building blocks of react 
+routing in v4, v5 and 6
+hooks 
+why context
+useEffect
+useHistory vs use Navigate
+dispatcher
+HOC
+stateless function
+lifecycle of react
+state managment
+Child to parent data transfer
+Why we use pure componenet
+ReactRouter
+React.Fragment
+React Motion
+Render Props
+Thunk
+Saga
+React.PureComponent
+Conditional operator true false and ternorey operator   
+State and props in class
+How to change state in classname
+Babel
+Webpack
+Diffing Algorithom
+Profiler
+React.fragment
+reduxStore
+reduser
+reduxToolkit
+useSelector
+dynamic Rendering
+clinet side rendering
+lazy load
+protected routes
+State and props
+Pure component
+useMemo
+JWT works Explanation
+How JWT works and Why JWT
+Difference b\w JWT and session
+Building blocks of react,
+Data transfer from child to parent,
+Dispatcher,
+Call, action and bind,
+Fragment,
+Flux
+JSX,
+Webpack,
+

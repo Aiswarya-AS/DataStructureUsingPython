@@ -1,0 +1,44 @@
+array vs linkedlist
+application of all ds
+hash table sorting Algorithom
+remove duplicate elements
+complete,full,perfect,avl, balanced tree 
+priority queue
+dfs and bfs time complexity
+spanning,minimum spannning  tree
+detect cycle
+graph in memory
+graph indexing
+resize a hash table
+stack under flow
+stack in recursive function
+balanced tree
+Hierarchical Linked List
+heap in manage priority queues
+DFS Complexity
+BFS Complexity
+DFS and BFS
+graph indexing
+Spanning tree
+represent a graph in memory
+shortest distance b/w two nodes
+find the minimum spanning tree in a graph"
+datastructue double hashing
+recursion in stack
+stack Underflow
+perfect balanced
+Trie complexity
+Insertion Sort
+Applications of doubly circular linked list
+Applications of heap
+Tools of complexity analysis
+Linkedlist types and explanations
+Diffrenses
+Pre order inorder postOrder travesel
+Diffense of a node
+Hashtabel application of hashtable
+Traversal of graph (BFS and DFS)
+Binery Serach Tree (practical)
+Binery serch (array inside many object)
+Datastructure Explanation and classification
+tree vs graph
